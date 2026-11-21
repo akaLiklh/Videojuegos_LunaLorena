@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ParallaxLejos
+    uniqueID: 1917800791
+    locked: 0
+  - name: ParallaxMedio
+    uniqueID: 1510166631
+    locked: 0
+  - name: Fondo
+    uniqueID: 2301648173
+    locked: 0
+  - name: Suelo
+    uniqueID: 3338866989
+    locked: 0
+  - name: Jugador
+    uniqueID: 1542022337
+    locked: 0
+  - name: Decoracion
+    uniqueID: 3175720773
+    locked: 0
+  - name: PrimerPlano
+    uniqueID: 1956532869
+    locked: 0
