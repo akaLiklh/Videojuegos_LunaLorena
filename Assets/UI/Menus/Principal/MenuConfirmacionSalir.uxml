@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="EstilosMenuPrincipal.uss" />
+    <ui:VisualElement class="raiz">
+        <ui:Label text="¿Seguro que quieres salir?" class="titulo-pequeno" />
+        <ui:VisualElement class="caja-botones">
+            <ui:Button name="bSi" text="Sí" class="boton" />
+            <ui:Button name="bNo" text="No" class="boton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

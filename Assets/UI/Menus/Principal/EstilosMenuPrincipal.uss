@@ -50,3 +50,32 @@
 .boton:active {
     scale: 0.97 0.97;
 }
+
+.titulo-pequeno {
+    font-size: 72px;
+    color: rgb(230, 225, 245);
+    -unity-font-style: bold;
+    margin-bottom: 40px;
+}
+
+.panel {
+    width: 800px;
+    align-items: center;
+}
+
+.opcion {
+    width: 700px;
+    margin: 12px;
+    font-size: 30px;
+    color: rgb(220, 215, 240);
+}
+
+.texto {
+    font-size: 32px;
+    color: rgb(200, 190, 235);
+    margin: 6px;
+}
+
+.boton:disabled {
+    opacity: 0.4;
+}A

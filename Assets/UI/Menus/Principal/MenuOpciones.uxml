@@ -1,9 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="EstilosMenuPrincipal.uss" />
+    <ui:VisualElement class="raiz">
+        <ui:Label text="Opciones" class="titulo-pequeno" />
+
+        <ui:VisualElement name="PantallaEleccion" class="caja-botones">
+            <ui:Button name="bAjustes" text="Ajustes" class="boton" />
+            <ui:Button name="bControles" text="Controles" class="boton" />
+            <ui:Button name="bVolver" text="Volver" class="boton" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="PantallaAjustes" class="panel">
+            <ui:Slider name="sVolumenGeneral" label="Volumen general" low-value="0" high-value="100" value="100" class="opcion" />
+            <ui:Slider name="sVolumenMusica" label="Música" low-value="0" high-value="100" value="100" class="opcion" />
+            <ui:Slider name="sVolumenEfectos" label="Efectos" low-value="0" high-value="100" value="100" class="opcion" />
+            <ui:Toggle name="tPantallaCompleta" label="Pantalla completa" class="opcion" />
+            <ui:Button name="bGuardar" text="Guardar" class="boton" />
+            <ui:Button name="bVolver" text="Volver" class="boton" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="PantallaControles" class="panel">
+            <ui:Label text="A / D — Moverse" class="texto" />
+            <ui:Label text="Espacio — Saltar" class="texto" />
+            <ui:Label text="Shift — Dash" class="texto" />
+            <ui:Label text="Ctrl — Rodar" class="texto" />
+            <ui:Label text="Clic izquierdo / J — Atacar" class="texto" />
+            <ui:Label text="E — Interactuar" class="texto" />
+            <ui:Button name="bVolver" text="Volver" class="boton" />
+        </ui:VisualElement>
+
+        <ui:Label name="txtGuardado" text="" class="texto" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,14 +1,19 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <Style src="MenuPrincipal.uss" />
+    <Style src="EstilosMenuPrincipal.uss" />
     <ui:VisualElement name="Raiz" class="raiz">
         <ui:VisualElement class="caja-titulo">
             <ui:Label text="KÁTHARSIS" class="titulo" />
             <ui:Label text="no se borra el dolor, se acepta" class="subtitulo" />
         </ui:VisualElement>
-        <ui:VisualElement class="caja-botones">
+        <ui:VisualElement name="Botones" class="caja-botones">
             <ui:Button name="BotonJugar" text="Jugar" class="boton" />
             <ui:Button name="BotonOpciones" text="Opciones" class="boton" />
             <ui:Button name="BotonSalir" text="Salir" class="boton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PantallaPartida" class="caja-botones" style="display: none;">
+            <ui:Button name="BotonNuevaPartida" text="Nueva partida" class="boton" />
+            <ui:Button name="BotonCargarPartida" text="Cargar partida" class="boton" />
+            <ui:Button name="BotonVolver" text="Volver" class="boton" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
