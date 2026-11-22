@@ -1,0 +1,52 @@
+.raiz {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 8, 20, 0.45);
+}
+
+.caja-titulo {
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.titulo {
+    font-size: 120px;
+    color: rgb(230, 225, 245);
+    -unity-font-style: bold;
+    letter-spacing: 12px;
+}
+
+.subtitulo {
+    font-size: 28px;
+    color: rgb(150, 140, 190);
+    -unity-font-style: italic;
+}
+
+.caja-botones {
+    align-items: center;
+}
+
+.boton {
+    width: 420px;
+    height: 80px;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(220, 215, 240);
+    background-color: rgba(30, 24, 50, 0.85);
+    border-width: 3px;
+    border-color: rgb(90, 75, 140);
+    border-radius: 6px;
+    transition-duration: 0.15s;
+}
+
+.boton:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 60, 180);
+    background-color: rgba(60, 20, 70, 0.9);
+    scale: 1.05 1.05;
+}
+
+.boton:active {
+    scale: 0.97 0.97;
+}
