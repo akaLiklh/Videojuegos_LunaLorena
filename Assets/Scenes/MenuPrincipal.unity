@@ -374,7 +374,7 @@ MonoBehaviour:
   m_PanelSettings: {fileID: 11400000, guid: 8495e95406bd9834b9a2856b9abadcca, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 3016568e0deb0e347b00497fd4a422d1, type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!114 &974094010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 1014185608}
   - component: {fileID: 1014185610}
   - component: {fileID: 1014185609}
+  - component: {fileID: 1014185611}
   m_Layer: 5
   m_Name: MenuPrincipal
   m_TagString: Untagged
@@ -451,6 +452,22 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 09f4bd0ef51081b45b302748c7b6f239, type: 3}
   m_SortingOrder: 0
+--- !u!114 &1014185611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014185607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72caec4ce775d6743a37053fc8fabdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadEscaneo: 0.25
+  duracionAnalisis: 4
+  tiempoPorLetra: 0.06
+  tiempoCursor: 0.5
 --- !u!1 &1267725941
 GameObject:
   m_ObjectHideFlags: 0

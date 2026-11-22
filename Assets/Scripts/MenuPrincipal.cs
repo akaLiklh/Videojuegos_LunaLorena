@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-// Conecta los botones del menú principal hecho con UI Toolkit.
+// Menú principal: Jugar (Nueva / Cargar partida), Opciones y Salir.
 public class MenuPrincipal : MonoBehaviour
 {
     [SerializeField] private GameObject menuOpciones;
@@ -19,58 +19,55 @@ public class MenuPrincipal : MonoBehaviour
         pantallaPartida = raiz.Q("PantallaPartida");
 
         raiz.Q<Button>("BotonJugar").clicked += Jugar;
-        raiz.Q<Button>("BotonOpciones").clicked += Opciones;
+        raiz.Q<Button>("BotonOpciones").clicked += AbrirOpciones;
         raiz.Q<Button>("BotonSalir").clicked += Salir;
 
         raiz.Q<Button>("BotonNuevaPartida").clicked += NuevaPartida;
-        raiz.Q<Button>("BotonCargarPartida").clicked += CargarPartida;
+        Button botonCargar = raiz.Q<Button>("BotonCargarPartida");
+        botonCargar.clicked += CargarPartida;
         raiz.Q<Button>("BotonVolver").clicked += Volver;
 
         // Si no hay partida guardada, no se puede cargar
         if (!PlayerPrefs.HasKey("EscenaGuardada"))
         {
-            raiz.Q<Button>("BotonCargarPartida").SetEnabled(false);
+            botonCargar.SetEnabled(false);
         }
     }
 
-    // Esconde los botones principales y enseña los de partida
-    void Jugar()
+    // Oculta los botones principales y enseña Nueva / Cargar / Volver
+    private void Jugar()
     {
         botones.style.display = DisplayStyle.None;
         pantallaPartida.style.display = DisplayStyle.Flex;
     }
 
     // Vuelve a los botones principales
-    void Volver()
+    private void Volver()
     {
         pantallaPartida.style.display = DisplayStyle.None;
         botones.style.display = DisplayStyle.Flex;
     }
 
-    // Empieza una partida nueva viendo la cinemática
-    void NuevaPartida()
+    // Borra la partida guardada y empieza desde la cinemática
+    private void NuevaPartida()
     {
         PlayerPrefs.DeleteKey("EscenaGuardada");
         SceneManager.LoadScene("CinematicaInicio");
     }
 
-    // Carga el último nivel en el que estuvo la jugadora
-    void CargarPartida()
+    // Carga la última escena guardada
+    private void CargarPartida()
     {
-        string escena = PlayerPrefs.GetString("EscenaGuardada");
-        SceneManager.LoadScene(escena);
+        SceneManager.LoadScene(PlayerPrefs.GetString("EscenaGuardada"));
     }
 
-    // Abre el menú de opciones y oculta este
-    void Opciones()
+    private void AbrirOpciones()
     {
         menuOpciones.GetComponent<MenuOpciones>().Abrir(gameObject);
     }
 
-    // Pregunta antes de salir
-    void Salir()
+    private void Salir()
     {
         menuConfirmacionSalir.SetActive(true);
-        gameObject.SetActive(false);
     }
 }

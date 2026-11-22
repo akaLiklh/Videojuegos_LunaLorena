@@ -1,8 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
     <Style src="EstilosMenuPrincipal.uss" />
-    <ui:VisualElement class="raiz">
+    <ui:VisualElement class="raiz centrado">
         <ui:Label text="¿Seguro que quieres salir?" class="titulo-pequeno" />
-        <ui:VisualElement class="caja-botones">
+        <ui:VisualElement class="caja-botones centrado">
             <ui:Button name="bSi" text="Sí" class="boton" />
             <ui:Button name="bNo" text="No" class="boton" />
         </ui:VisualElement>
