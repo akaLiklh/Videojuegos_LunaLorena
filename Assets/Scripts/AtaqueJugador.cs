@@ -78,7 +78,7 @@ public class AtaqueJugador : MonoBehaviour
 
         foreach (Collider2D golpeado in golpeados)
         {
-            VidaEnemigo enemigo = golpeado.GetComponent<VidaEnemigo>();
+            VidaKer enemigo = golpeado.GetComponent<VidaKer>();
 
             if (enemigo != null)
             {

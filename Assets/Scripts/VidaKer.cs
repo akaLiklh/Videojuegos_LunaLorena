@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Vida de los enemigos: parpadean en rojo al recibir daño y mueren al llegar a 0.
-public class VidaEnemigo : MonoBehaviour
+public class VidaKer : MonoBehaviour
 {
     [SerializeField] private int vida = 3;
     [SerializeField] private float tiempoRojo = 0.15f;
@@ -62,7 +62,7 @@ public class VidaEnemigo : MonoBehaviour
             contadorMuerte = tiempoMuerte;
 
             // Deja de moverse y de chocar
-            Ker ker = GetComponent<Ker>();
+            EnemigoKerKalen ker = GetComponent<EnemigoKerKalen>();
             if (ker != null)
             {
                 ker.enabled = false;

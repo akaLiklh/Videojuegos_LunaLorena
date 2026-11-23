@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Ker: patrulla, se para en los extremos, detecta a Melínoe, la persigue y le hace daño al tocarla.
-public class Ker : MonoBehaviour
+public class EnemigoKerKalen : MonoBehaviour
 {
     [SerializeField] private float velocidad = 2f;
     [SerializeField] private float velocidadPersecucion = 3.5f;
