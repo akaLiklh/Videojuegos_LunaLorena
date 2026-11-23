@@ -53,7 +53,7 @@ TagManager:
   - name: Suelo
     uniqueID: 3338866989
     locked: 0
-  - name: Jugador
+  - name: Personajes
     uniqueID: 1542022337
     locked: 0
   - name: Decoracion

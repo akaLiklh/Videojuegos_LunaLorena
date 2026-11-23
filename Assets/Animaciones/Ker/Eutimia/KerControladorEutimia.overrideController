@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KerControladorEutimia
+  m_Controller: {fileID: 9100000, guid: 442f0d35ec4790440b713aed30b2d064, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 375a1b23edd23af4082a4d1a7adf0e44, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd89676f49775f34086df98595b7b3f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09d79ff0f5b8ae142a119f96314dc680, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd89676f49775f34086df98595b7b3f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 583001197aea1554c9b5b9b9ca9b9ee3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd89676f49775f34086df98595b7b3f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f87c0de4be59bce4b8842076bcc28dfa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd89676f49775f34086df98595b7b3f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4e11d1ff4bb97924ba23eb285e774816, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd89676f49775f34086df98595b7b3f2, type: 2}
