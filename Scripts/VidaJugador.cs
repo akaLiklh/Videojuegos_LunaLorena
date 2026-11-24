@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 // Vida de Melínoe: recibe daño, parpadea en rojo, sale empujada y muere al llegar a 0.
 public class VidaJugador : MonoBehaviour
 {
-    [SerializeField] private int vida = 5;
+    //[SerializeField] private int vida = 5;
     [SerializeField] private float tiempoSinDanio = 1f;
     [SerializeField] private float tiempoEmpuje = 0.2f;
     [SerializeField] private float fuerzaEmpuje = 8f;
@@ -15,6 +15,8 @@ public class VidaJugador : MonoBehaviour
     private float contadorEmpuje = 0;
     private float contadorMuerte = 0;
     private bool muerta = false;
+    public int vida = 3;
+    public int vidaMaxima = 5;
 
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
@@ -95,6 +97,15 @@ public class VidaJugador : MonoBehaviour
             muerta = true;
             ataque.enabled = false;
             contadorMuerte = tiempoMuerte;
+        }
+    }
+
+    public void Curar(int cantidadAumenta)
+    {
+        vida += cantidadAumenta;
+        if(vida > vidaMaxima)
+        {
+            vida = vidaMaxima;
         }
     }
 

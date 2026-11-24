@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbrirPuerta : MonoBehaviour
+public class SensorPuerta : MonoBehaviour
 {
     public GameObject destino;
     public GameObject origen;
@@ -10,7 +10,6 @@ public class AbrirPuerta : MonoBehaviour
     float temporizador;
     BoxCollider2D colision;
     public Transform puntoDestinoJugador;
-    public Transform puntoDestinoCamara;
 
     // Start is called before the first frame update
     void Start()
@@ -37,24 +36,20 @@ public class AbrirPuerta : MonoBehaviour
         if (!haCruzado)
         {
             haCruzado = true;
+            collision.transform.position = puntoDestinoJugador.position;
             Camera.main.transform.position = destino.transform.position;
 
         }
         else
         {
             haCruzado = false;
+            collision.transform.position = puntoDestinoJugador.position;
             Camera.main.transform.position = origen.transform.position;
 
         }
         colision.enabled = false;
         temporizador = 2.0f;
-
-        if (collision.CompareTag("Player"))
-        {
-            collision.transform.position = puntoDestinoJugador.position;
-            Camera.main.transform.position = puntoDestinoCamara.position;
-        }
-
+       
     }
 
 
