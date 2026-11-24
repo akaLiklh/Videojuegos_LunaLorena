@@ -73,6 +73,11 @@ public class VidaKer : MonoBehaviour
             {
                 anim.SetTrigger("Muerte");
             }
+
+            if (GestorJuego.instancia != null)
+            {
+                GestorJuego.instancia.SumarPuntos(100);
+            }
         }
     }
 }
