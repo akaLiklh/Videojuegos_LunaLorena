@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menus/Principal/EstilosMenuPrincipal.uss" />
+    <ui:VisualElement name="Hud" class="hud" picking-mode="Ignore">
+        <ui:Label name="TextoVida" text="VIDA 5" class="hud-texto" picking-mode="Ignore" />
+        <ui:Label name="TextoPuntos" text="PUNTOS 0" class="hud-texto" picking-mode="Ignore" />
+    </ui:VisualElement>
+    <ui:Label name="TextoMensaje" text="" class="mensaje" picking-mode="Ignore" />
+</ui:UXML>

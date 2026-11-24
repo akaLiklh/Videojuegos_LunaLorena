@@ -10,7 +10,7 @@ public class GestorJuego : MonoBehaviour
     void Awake()
     {
         // Para q solo pueda haber uno
-        if (instancia != null)
+        if (instancia != null && instancia != this)
         {
             Destroy(gameObject);
             return;
