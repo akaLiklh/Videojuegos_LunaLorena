@@ -254,7 +254,12 @@
 
 .imagen-figura {
     flex-grow: 1;
-    background-image: url("project://database/Assets/Arte/UI/figura.png?fileID=21300000&guid=507b674e3a7ab954bb88b6636c600ccf&type=3#figura");
+    background-image: url("project://database/Assets/Arte/UI/figura.png");
+    background-color: rgb(34, 26, 50);
+    background-repeat: no-repeat;
+    background-size: auto 95%;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 
 .mira {
@@ -267,15 +272,15 @@
 }
 
 .mira-cerrada {
-    left: 50px;
-    top: 70px;
-    right: 50px;
-    bottom: 70px;
+    left: 38%;
+    right: 42%;
+    top: 10%;
+    bottom: 75%;
 }
 
 .etiqueta-mira {
     position: absolute;
-    top: -26px;
+    top: -24px;
     left: 0;
     font-size: 22px;
     color: rgb(205, 165, 255);

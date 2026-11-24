@@ -1,14 +1,12 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <Style src="EstilosMenuPrincipal.uss" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menus/Principal/EstilosMenuPrincipal.uss?fileID=7433441132597879392&amp;guid=88c7d7e8c91ff4042904a52c1fdb295c&amp;type=3#EstilosMenuPrincipal" />
     <ui:VisualElement class="raiz">
-
         <ui:VisualElement name="PantallaEleccion" class="caja-botones centrado">
-            <ui:Label text="Opciones" class="titulo-pequeno" />
+            <ui:Label text="Opciones" class="titulo-pequeno" style="background-color: rgba(0, 0, 0, 0);" />
             <ui:Button name="bAjustes" text="Ajustes" class="boton" />
             <ui:Button name="bControles" text="Controles" class="boton" />
             <ui:Button name="bVolver" text="Volver" class="boton" />
         </ui:VisualElement>
-
         <ui:VisualElement name="PantallaAjustes" class="panel centrado">
             <ui:Label text="Ajustes" class="titulo-pequeno" />
             <ui:Slider name="sVolumenGeneral" label="Volumen general" low-value="0" high-value="100" value="100" class="opcion" />
@@ -18,18 +16,16 @@
             <ui:Button name="bGuardar" text="Guardar" class="boton" />
             <ui:Button name="bVolver" text="Volver" class="boton" />
         </ui:VisualElement>
-
         <ui:VisualElement name="PantallaControles" class="panel centrado">
             <ui:Label text="Controles" class="titulo-pequeno" />
             <ui:Label text="A / D — Moverse" class="texto" />
             <ui:Label text="Espacio — Saltar" class="texto" />
             <ui:Label text="Shift — Dash" class="texto" />
             <ui:Label text="Ctrl — Rodar" class="texto" />
-            <ui:Label text="Clic izquierdo / J — Atacar" class="texto" />
+            <ui:Label text="Click izquierdo" class="texto" />
             <ui:Label text="E — Interactuar" class="texto" />
             <ui:Button name="bVolver" text="Volver" class="boton" />
         </ui:VisualElement>
-
-        <ui:Label name="txtGuardado" text="" class="texto" />
+        <ui:Label name="txtGuardado" class="texto" />
     </ui:VisualElement>
 </ui:UXML>

@@ -30,10 +30,10 @@
                         <ui:Label text="ANÁLISIS DE SUJETO" class="ficha-titulo" />
                         <ui:Label name="TextoAnalisis" text="ESCANEANDO 0%" class="ficha-estado" />
                     </ui:VisualElement>
-                    <ui:VisualElement class="barra-analisis">
+                    <ui:VisualElement name="BarraSeparadora" class="barra-analisis">
                         <ui:VisualElement name="BarraAnalisis" class="barra-analisis-relleno" />
                     </ui:VisualElement>
-                    <ui:VisualElement class="ficha-superior">
+                    <ui:VisualElement name="OjoImplante" class="ficha-superior">
                         <ui:VisualElement class="panel-imagen imagen-ojo">
                             <ui:Label text="IRIS" class="etiqueta-imagen" />
                         </ui:VisualElement>
