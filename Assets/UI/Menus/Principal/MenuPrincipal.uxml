@@ -1,0 +1,103 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menus/Principal/EstilosMenuPrincipal.uss?fileID=7433441132597879392&amp;guid=88c7d7e8c91ff4042904a52c1fdb295c&amp;type=3#EstilosMenuPrincipal" />
+    <ui:VisualElement name="Fondo" class="raiz fondo">
+        <ui:VisualElement name="Borde" class="marco">
+            <ui:VisualElement name="Titulo" class="cabecera">
+                <ui:Label text="MELÍNOE // VISIÓN ACTIVA" class="dato-pequeno" />
+                <ui:VisualElement class="caja-rec">
+                    <ui:VisualElement name="PuntoRec" class="punto-rec" />
+                    <ui:Label name="TextoRec" text="REC 00:00:00" class="dato-pequeno rec" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Pantalla" class="contenido">
+                <ui:VisualElement name="Juego" class="columna-izquierda">
+                    <ui:Label text="KÁTHARSIS" class="titulo" />
+                    <ui:Label text="recompilando emociones..." class="subtitulo" />
+                    <ui:Label text="¿QUÉ VAS A HACER, MNEMÓSINE?" class="pregunta" />
+                    <ui:VisualElement name="Botones" class="caja-botones">
+                        <ui:Button name="BotonJugar" text="JUGAR" class="boton" />
+                        <ui:Button name="BotonOpciones" text="OPCIONES" class="boton" />
+                        <ui:Button name="BotonSalir" text="SALIR" class="boton" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PantallaPartida" class="caja-botones" style="display: none;">
+                        <ui:Button name="BotonNuevaPartida" text="NUEVA PARTIDA" class="boton" />
+                        <ui:Button name="BotonCargarPartida" text="CARGAR PARTIDA" class="boton" />
+                        <ui:Button name="BotonVolver" text="VOLVER" class="boton" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PanelInfo" class="ficha">
+                    <ui:VisualElement name="CabeceraFicha" class="ficha-cabecera">
+                        <ui:Label text="ANÁLISIS DE SUJETO" class="ficha-titulo" />
+                        <ui:Label name="TextoAnalisis" text="ESCANEANDO 0%" class="ficha-estado" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="BarraSeparadora" class="barra-analisis">
+                        <ui:VisualElement name="BarraAnalisis" class="barra-analisis-relleno" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="OjoImplante" class="ficha-superior">
+                        <ui:VisualElement class="panel-imagen imagen-ojo">
+                            <ui:Label text="IRIS" class="etiqueta-imagen" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="panel-imagen imagen-circuito">
+                            <ui:Label text="IMPLANTE" class="etiqueta-imagen" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Tabla" class="ficha-inferior">
+                        <ui:VisualElement class="ficha-columna-izq">
+                            <ui:VisualElement class="caja-huella">
+                                <ui:VisualElement class="esq esq-si" />
+                                <ui:VisualElement class="esq esq-sd" />
+                                <ui:VisualElement class="esq esq-ii" />
+                                <ui:VisualElement class="esq esq-id" />
+                                <ui:VisualElement class="imagen-huella" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="panel-imagen imagen-figura">
+                                <ui:VisualElement name="Mira" picking-mode="Ignore" class="mira">
+                                    <ui:VisualElement class="esq esq-si" />
+                                    <ui:VisualElement class="esq esq-sd" />
+                                    <ui:VisualElement class="esq esq-ii" />
+                                    <ui:VisualElement class="esq esq-id" />
+                                    <ui:Label text="OBJETIVO" class="etiqueta-mira" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="ficha-columna-der">
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="SUJETO" class="clave" />
+                                <ui:Label text="MELÍNOE" class="valor" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="IMPLANTE" class="clave" />
+                                <ui:Label text="ANTICITERA" class="valor" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="ESTADO" class="clave" />
+                                <ui:Label text="FALLO" class="valor alerta" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="EMOCIONES" class="clave" />
+                                <ui:Label text="NO SUPRIMIDAS" class="valor alerta" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="ÚLT. UBICACIÓN" class="clave" />
+                                <ui:Label text="KALEN·S4" class="valor" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="RIESGO" class="clave" />
+                                <ui:Label text="ALTO" class="valor alerta" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="fila">
+                                <ui:Label text="DECISIÓN" class="clave" />
+                                <ui:Label text="PENDIENTE" class="valor" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="panel-imagen imagen-onda" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Conexion" class="pie">
+                <ui:Label name="TextoConexion" text="CONEXIÓN CON EUTIMIA ESTABLE" class="dato-pequeno texto-pie" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="LineaEscaneo" picking-mode="Ignore" class="linea-escaneo" />
+    </ui:VisualElement>
+</ui:UXML>

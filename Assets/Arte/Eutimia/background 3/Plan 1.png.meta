@@ -1,0 +1,2864 @@
+fileFormatVersion: 2
+guid: 4f20f5fbdfb25b14ea850dc85292397f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plan 1_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f11737ebeded44c83783d758398aa9
+      internalID: -986993313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43d0440de2b7cc4dbd4ff7bf3cb433f
+      internalID: -1071511867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c32fe16e2a9a949b2c2ceefa981455
+      internalID: -1530021293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d480a5d40884943bec15badb7604b0
+      internalID: 1626751075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91e648937d0e144f8b2383a4aef62fd
+      internalID: 1153965634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b5535ed7271643a10db8aedf2f917
+      internalID: -1491039894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 303.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1115cb1b8d4ae1418ddb79429b3d150
+      internalID: 1447176672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef7c6f46d110f2458858cc5cb77964f
+      internalID: 1258042045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a428f8f0c746c1c4d95bb476aaf3d3c7
+      internalID: -2033531435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0160580ad1f492478f5f06623a6e09f
+      internalID: 1972098024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd94fd4fad4d6b74a8ee63812d241725
+      internalID: 249457915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326aab55dc9f1ca4d9db35a485a794d6
+      internalID: 1215593163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bbe74873795b54083a0e0183fd1209
+      internalID: -1040291446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 283.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b0d9c3f64d23747908339797476525
+      internalID: 1119437306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a94f094a697a546a098242e85df51c
+      internalID: 1552792997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a579e8612a96b8d4fa4d75cc857d7042
+      internalID: 695785867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ebcfa2c5787234fada2712ce83574a
+      internalID: -1490973872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9481e215fc18142a74ab96b5847d77
+      internalID: 399266227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a4833c5714eec4fa5f8639146a3416
+      internalID: -585199828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f390a27fe615f98458d367e3475322f6
+      internalID: -1862939528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 263.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78164d2787900f4dba60684452c1fbc
+      internalID: -203933282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988812236e3c3db4196d450e881712cb
+      internalID: 1084878758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752b7c658050a674ca1685c480fed4a2
+      internalID: -1805961689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161d9d45bb720ec4391bcdd0dace7182
+      internalID: 61419972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_24
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9806a3fb32fe2f143b4b7aa7f12a5630
+      internalID: 2054856086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae688aa4c59a046b69c8f8d0275da3
+      internalID: 2080322175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 243.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a3ed8e449b1c44abab60739dad534
+      internalID: -1502918770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a3e5b418cd45f4d82047313c3679bb
+      internalID: -829173852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf58c466e0f5c614fbeb4374c8228a07
+      internalID: -260333866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52b0ad95dac5d347b96cf73ca71db74
+      internalID: -1241485341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5322065fae024e4889cd19ff072f2a1
+      internalID: 2059620625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_31
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebb2c8015a7094982dc6f9f9807bbe
+      internalID: 2119507602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb088a5030cc55498b6a83e770ddf81
+      internalID: -188268860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 223.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51c685968d5a764cb16faae0fa40667
+      internalID: -1208001067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756cd2427e19a554795516a020253f0c
+      internalID: 622890253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc6bed586457041b5bef75b872fd84
+      internalID: -269045742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_36
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b7b5e456faa8b42ba604de7e52d6cb
+      internalID: -619025503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61756cc2418ab341b1ef5a72e3da169
+      internalID: -1478256262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4ec923278640145a69f5519f4a25cb
+      internalID: 1597243026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_39
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 203.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2b015b9f688814e90d9a6163f62ab3
+      internalID: 857960043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_40
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63860e1d449b5a24b946dd041ee57178
+      internalID: -1486742924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e74519d69b694ba6b6d65aa72bc68
+      internalID: 1313501287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad9f232a6417c43a038074a2d6c680
+      internalID: -3031072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_43
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5208885ed652794e9a9b6209cd7a1e0
+      internalID: 1616407806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef0c0cb11a75ed49a838e3da91c7fa2
+      internalID: 565964347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 183.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87a0ed795e834a4ab325bb6592fce95
+      internalID: -1246522006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_46
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11397aa504cdb57498606832857a00b4
+      internalID: -1291680792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_47
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e98a7b4b2a92740a7159bdb4846a7d
+      internalID: 372907721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0870c5b31b7b5046a34a93b6faf4f3b
+      internalID: -871777336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36da4cd323c23364fb3ee13a009bbc72
+      internalID: 1393928118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_50
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9107db726d18df640a844a805149310e
+      internalID: -175302274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 163.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13471cc64b12b94ba219318bc6cdc7a
+      internalID: -1069725660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_52
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1fc0b0840c9f3489cb61f15163362f
+      internalID: -1872554773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_53
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f102c61c996c234780495e314befcbc
+      internalID: 746095128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_54
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bd032ef82588342805981f44f0e630
+      internalID: -1244139047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_55
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e2fdd8d779b9a468d1ef7485d591fa
+      internalID: 1477850351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f9765564e18345a2f4d0985d50ae0
+      internalID: 1019550444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 143.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235c7c76617e6f4081e8aee85cc2b95
+      internalID: 1917514857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_58
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5995f6a17e8813340bde18ed4796ce07
+      internalID: 794485250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_59
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45699a2df36f604089da0244c882d58
+      internalID: -1962150294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_60
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a03bba8b7fc0a648aa6521670cd56a7
+      internalID: 1790391055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_61
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46916b1b731e1aa449581b2872eba172
+      internalID: 591915792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_62
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5caf5013cbe6344a6589e6b74129d9
+      internalID: 560729499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_63
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 123.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1989fe89fb17ed4b96f88bf13b49196
+      internalID: -1303764332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aac6dbce42b6e54c895b2184327583f
+      internalID: 1780581734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3acb02affe04ae4eaa77653fb866567
+      internalID: 1325780085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c27f3fdd65303144a48227968ed3c8d
+      internalID: 1612769729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f661ef4a267fb6e46a81ea413fb420bf
+      internalID: 900762908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_68
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc853fd18087a164a9d7c77319200de1
+      internalID: -78605798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_69
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2ac2212b70f414aa730dc99fb5afc2
+      internalID: -1873503602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_70
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cfb23c35df5084b96d0f8d3eac6bfa
+      internalID: 1307325403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_71
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 103.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5322c4bc0e28dac459a084d00c8dafbf
+      internalID: -870229464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056bc8cd5270c6d4f9e89da1fc659b26
+      internalID: -1706854375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_73
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19d9aa36983b149a15e73a75a77a1b
+      internalID: -780259751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b6512ea4cfba64bace5468495ec098
+      internalID: 701921431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70bbba7d36bad947be056f2ef66dd32
+      internalID: 1754931830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_76
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c008ae4007ab418f3be8c45021462
+      internalID: 403134702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_77
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad5de5ae241e9242b08474c49e1e816
+      internalID: -1722996185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b72b31f3ae2948a232fa39e7bd9fb
+      internalID: -1386839397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 83.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50f25de4b390554ea1fcdff2feddeea
+      internalID: -2082127617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3136e6d50751a84181d3c85e521b33d
+      internalID: -2011817392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_81
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218ee166288b461499799dec61334009
+      internalID: -2027742197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dff58ea0ccfb241a3be7d0fcf2f542
+      internalID: 644166445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf217f568ae93c4d81cdb6faa63e5a1
+      internalID: -149631415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_84
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb4f5d433aa5c64c9401293c004ced2
+      internalID: 352340704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_85
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83cf8a24b9fce748b10158274289fa2
+      internalID: 1410162000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_86
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4040837eeb6c3f3478a680b52a818ab5
+      internalID: 1879502563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_87
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8adb0da6c38f3b498c52bb38f54a71b
+      internalID: -441670796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_88
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857b4b32714650946ac29d935b529114
+      internalID: -1911666444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_89
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 63.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff38dabf47e605446820e08af6888f20
+      internalID: -701383594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44be6f1c0a68714089f9b9d7f140123
+      internalID: 1134493200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_91
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d568ff0f5d927f44a2cfc7909fc3906
+      internalID: -256968838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_92
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ab5c0e66010644b81a32a370c5b981
+      internalID: -2075560861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6c5c53822a6994ab96495119e5dacf
+      internalID: -1858998360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_94
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9dc3caeddf3b4f8971b1264af494f
+      internalID: -1699377137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_95
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca97e1b0c47a75c46b9896389a028170
+      internalID: 1402437735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_96
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5f8d89bf2315443bacc2759fe7c406
+      internalID: 841094057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_97
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1d6e59028aa9841a994e931ac1f038
+      internalID: 1444999148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_98
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aed840c08c32646854b109a44f151c
+      internalID: 651344427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_99
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e285d620b4608f47ab0c719ab0e9af0
+      internalID: -888030735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_100
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 43.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264723c349529c4daa0976aab102348
+      internalID: 793223877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_101
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c644582ce54f4fa1d08b17e29f587
+      internalID: -168806394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3979ed750e6ac9e4396885d3fe8f68d2
+      internalID: 122808119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_103
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dbb86415fd4a84bb2b166cf6b6ec84
+      internalID: -1633880959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366a78dfe45d0e7438ece6b7231122de
+      internalID: 1013196684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_105
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e3dd476ceffd4489c3e13dd9ccfaa0
+      internalID: 2060138665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_106
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eab48bd74f7ae4eaddec4617654d11
+      internalID: -1811837864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_107
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d4d1944515d8c469edb7cbcd28bb93
+      internalID: 840927704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_108
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01684da27d9d884d824b73ff9685120
+      internalID: 1561678127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4723be4ea9f79e429c1ee04a6b710e5
+      internalID: -1697538699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_110
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773d4f721ee2c93438a7b6c7c1154a12
+      internalID: -847922447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_111
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b33d05aabdd87943828a61b15c80e65
+      internalID: -362757626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_112
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 23.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da6ec80fcd276f49a90986303ab7e9c
+      internalID: -273522995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_113
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf7342ab30de1f42b0a869c9c4c2470
+      internalID: 981574315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43d8bcc80316a64093cbe586a99bfbd
+      internalID: -323206219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_115
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc28bc09f1849341aaf7dceee25da3d
+      internalID: 69294612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029893cd747205b4a9275b84da3847de
+      internalID: 851772672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259aee519666ac244a8e76c591ea2a0e
+      internalID: 1018610430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_118
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf6c25c2fdfe24d8d32cb995859b58
+      internalID: 1722546526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_119
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dcff686594efd43b14ee10b13dc83c
+      internalID: -1383186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_120
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5fd5a3618f870469ade17fc09b1575
+      internalID: -579775018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_121
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b1d7ce10cb1942be09289b3d2e2ba
+      internalID: 1783148825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_122
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd25b943df78c843bd7f0a8a0e10e11
+      internalID: 462263328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_123
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b320eca40cf6448719b2b67ef59b5
+      internalID: 1008095233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plan 1_124
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3.75
+        width: 36
+        height: 20.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ea1589ae88234f936d926942ef558
+      internalID: -1145777229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plan 1_0: -986993313
+      Plan 1_1: -1071511867
+      Plan 1_10: 249457915
+      Plan 1_100: 793223877
+      Plan 1_101: -168806394
+      Plan 1_102: 122808119
+      Plan 1_103: -1633880959
+      Plan 1_104: 1013196684
+      Plan 1_105: 2060138665
+      Plan 1_106: -1811837864
+      Plan 1_107: 840927704
+      Plan 1_108: 1561678127
+      Plan 1_109: -1697538699
+      Plan 1_11: 1215593163
+      Plan 1_110: -847922447
+      Plan 1_111: -362757626
+      Plan 1_112: -273522995
+      Plan 1_113: 981574315
+      Plan 1_114: -323206219
+      Plan 1_115: 69294612
+      Plan 1_116: 851772672
+      Plan 1_117: 1018610430
+      Plan 1_118: 1722546526
+      Plan 1_119: -1383186
+      Plan 1_12: -1040291446
+      Plan 1_120: -579775018
+      Plan 1_121: 1783148825
+      Plan 1_122: 462263328
+      Plan 1_123: 1008095233
+      Plan 1_124: -1145777229
+      Plan 1_13: 1119437306
+      Plan 1_14: 1552792997
+      Plan 1_15: 695785867
+      Plan 1_16: -1490973872
+      Plan 1_17: 399266227
+      Plan 1_18: -585199828
+      Plan 1_19: -1862939528
+      Plan 1_2: -1530021293
+      Plan 1_20: -203933282
+      Plan 1_21: 1084878758
+      Plan 1_22: -1805961689
+      Plan 1_23: 61419972
+      Plan 1_24: 2054856086
+      Plan 1_25: 2080322175
+      Plan 1_26: -1502918770
+      Plan 1_27: -829173852
+      Plan 1_28: -260333866
+      Plan 1_29: -1241485341
+      Plan 1_3: 1626751075
+      Plan 1_30: 2059620625
+      Plan 1_31: 2119507602
+      Plan 1_32: -188268860
+      Plan 1_33: -1208001067
+      Plan 1_34: 622890253
+      Plan 1_35: -269045742
+      Plan 1_36: -619025503
+      Plan 1_37: -1478256262
+      Plan 1_38: 1597243026
+      Plan 1_39: 857960043
+      Plan 1_4: 1153965634
+      Plan 1_40: -1486742924
+      Plan 1_41: 1313501287
+      Plan 1_42: -3031072
+      Plan 1_43: 1616407806
+      Plan 1_44: 565964347
+      Plan 1_45: -1246522006
+      Plan 1_46: -1291680792
+      Plan 1_47: 372907721
+      Plan 1_48: -871777336
+      Plan 1_49: 1393928118
+      Plan 1_5: -1491039894
+      Plan 1_50: -175302274
+      Plan 1_51: -1069725660
+      Plan 1_52: -1872554773
+      Plan 1_53: 746095128
+      Plan 1_54: -1244139047
+      Plan 1_55: 1477850351
+      Plan 1_56: 1019550444
+      Plan 1_57: 1917514857
+      Plan 1_58: 794485250
+      Plan 1_59: -1962150294
+      Plan 1_6: 1447176672
+      Plan 1_60: 1790391055
+      Plan 1_61: 591915792
+      Plan 1_62: 560729499
+      Plan 1_63: -1303764332
+      Plan 1_64: 1780581734
+      Plan 1_65: 1325780085
+      Plan 1_66: 1612769729
+      Plan 1_67: 900762908
+      Plan 1_68: -78605798
+      Plan 1_69: -1873503602
+      Plan 1_7: 1258042045
+      Plan 1_70: 1307325403
+      Plan 1_71: -870229464
+      Plan 1_72: -1706854375
+      Plan 1_73: -780259751
+      Plan 1_74: 701921431
+      Plan 1_75: 1754931830
+      Plan 1_76: 403134702
+      Plan 1_77: -1722996185
+      Plan 1_78: -1386839397
+      Plan 1_79: -2082127617
+      Plan 1_8: -2033531435
+      Plan 1_80: -2011817392
+      Plan 1_81: -2027742197
+      Plan 1_82: 644166445
+      Plan 1_83: -149631415
+      Plan 1_84: 352340704
+      Plan 1_85: 1410162000
+      Plan 1_86: 1879502563
+      Plan 1_87: -441670796
+      Plan 1_88: -1911666444
+      Plan 1_89: -701383594
+      Plan 1_9: 1972098024
+      Plan 1_90: 1134493200
+      Plan 1_91: -256968838
+      Plan 1_92: -2075560861
+      Plan 1_93: -1858998360
+      Plan 1_94: -1699377137
+      Plan 1_95: 1402437735
+      Plan 1_96: 841094057
+      Plan 1_97: 1444999148
+      Plan 1_98: 651344427
+      Plan 1_99: -888030735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

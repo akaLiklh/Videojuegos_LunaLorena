@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Suelo
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ParallaxLejos
+    uniqueID: 1917800791
+    locked: 0
+  - name: ParallaxMedio
+    uniqueID: 1510166631
+    locked: 0
+  - name: Fondo
+    uniqueID: 2301648173
+    locked: 0
+  - name: Suelo
+    uniqueID: 3338866989
+    locked: 0
+  - name: Personajes
+    uniqueID: 1542022337
+    locked: 0
+  - name: Decoracion
+    uniqueID: 3175720773
+    locked: 0
+  - name: PrimerPlano
+    uniqueID: 1956532869
+    locked: 0
