@@ -9,7 +9,7 @@
 }
 
 .fondo {
-    background-image: url("project://database/Assets/Arte/UI/fondo_menu.png?fileID=21300000&guid=e0af6af2b2dd34142b153148fb9c6a50&type=3#fondo_menu");
+    background-image: url("project://database/Assets/Arte/UI/fondo_menu.png?fileID=21300000&guid=49af6e22b29e9e94b9b7842434b7825a&type=3#fondo_menu");
     -unity-background-scale-mode: scale-and-crop;
 }
 
@@ -254,7 +254,7 @@
 
 .imagen-figura {
     flex-grow: 1;
-    background-image: url("project://database/Assets/Arte/UI/figura.png");
+    background-image: url("project://database/Assets/Arte/UI/figura.png?fileID=21300000&guid=ac44615699077db49879d230b4ef4b42&type=3#figura");
     background-color: rgb(34, 26, 50);
     background-repeat: no-repeat;
     background-size: auto 95%;
@@ -380,7 +380,10 @@
     margin: 4px 0;
 }
 
-.caja-botones.centrado,
+.caja-botones.centrado {
+    align-items: center;
+}
+
 .panel.centrado {
     align-items: center;
 }
@@ -424,7 +427,23 @@
     -unity-background-image-tint-color: rgb(205, 165, 255);
 }
 
-.opcion.unity-base-field:focus:enabled > .unity-base-field__label,
+.opcion.unity-base-field:focus:enabled > .unity-base-field__label {
+    color: rgb(255, 255, 255);
+}
+
 .opcion.unity-base-field:hover:enabled > .unity-base-field__label {
     color: rgb(255, 255, 255);
+}
+
+.mensaje {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 120px;
+    font-size: 52px;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url("project://database/Assets/Arte/Fuentes/VT323-Regular.ttf?fileID=12800000&guid=d618850fb82a3ad4a8daf1a16e5b5221&type=3#VT323-Regular");
+    color: rgb(220, 190, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(10, 6, 18);
 }
