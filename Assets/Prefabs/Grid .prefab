@@ -2465,13 +2465,15 @@ GameObject:
   - component: {fileID: 1174018365312605276}
   - component: {fileID: 2677226353987226226}
   - component: {fileID: 8336152695407364192}
+  - component: {fileID: 3801578588187796665}
+  - component: {fileID: 8188192233313126328}
   m_Layer: 0
   m_Name: PuertaCerrada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1174018365312605276
 Transform:
   m_ObjectHideFlags: 0
@@ -3023,9 +3025,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingLayerID: -1119246523
+  m_SortingLayer: 6
+  m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.625, y: 0.1328125, z: 0}
   m_MaxChunkCount: 16
@@ -3034,6 +3036,58 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &3801578588187796665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765865386601050643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed7356aba766f74182b20aec2cd6bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaBotones:
+  - {fileID: 0}
+  tiempoEspera: 2
+  puertaCerrada: {fileID: 765865386601050643}
+--- !u!19719996 &8188192233313126328
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765865386601050643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1038873200802702184
 GameObject:
   m_ObjectHideFlags: 0
@@ -6613,9 +6667,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -956100307
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -7498,7 +7552,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.625, y: 0.1328125, z: 0}
   m_MaxChunkCount: 16
@@ -8864,7 +8918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3609941864272802180
 Transform:
   m_ObjectHideFlags: 0
@@ -8990,7 +9044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5359773243389597089
 Transform:
   m_ObjectHideFlags: 0
@@ -9906,7 +9960,25 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 6704120887568484033}
+    m_ColliderPaths:
+    - - X: 836249984
+        Y: 242031248
+      - X: 413750016
+        Y: 242031248
+      - X: 413750016
+        Y: 228906256
+      - X: 813750016
+        Y: 228906256
+      - X: 813750016
+        Y: 2031250
+      - X: 413750016
+        Y: 2031250
+      - X: 413750016
+        Y: -11093750
+      - X: 836249984
+        Y: -11093750
   m_CompositePaths:
     m_Paths:
     - - {x: 83.62497, y: -1.109375}
