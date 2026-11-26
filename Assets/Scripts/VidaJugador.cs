@@ -9,7 +9,6 @@ public class VidaJugador : MonoBehaviour
     [SerializeField] private float tiempoEmpuje = 0.2f;
     [SerializeField] private float fuerzaEmpuje = 8f;
     [SerializeField] private float tiempoMuerte = 1.5f;
-    [SerializeField] private string escenaDerrota = "";
 
     private float contadorSinDanio = 0;
     private float contadorEmpuje = 0;

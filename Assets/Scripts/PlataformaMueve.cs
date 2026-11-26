@@ -1,59 +1,45 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlataformaMueve : MonoBehaviour
 {
-    [SerializeField] private Transform[] puntosMovimiento;
-    [SerializeField] private float velocidadMovimiento;
-    private int sigientePlataforma = 1;
-    private bool ordenPlataformas = true;
+    public Transform[] puntos;
+    public float velocidad = 2f;
+    private int indiceActual = 0;
+    private Rigidbody2D rb;
+    private Vector2 posicionAnterior;
+    public Vector2 velocidadPlataforma;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        posicionAnterior = rb.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(ordenPlataformas && sigientePlataforma +1 >= puntosMovimiento.Length)
-        {
-            ordenPlataformas = false;
-        }
-        if (ordenPlataformas && sigientePlataforma <= 0)
-        {
-            ordenPlataformas = true;
-        }
+        Vector2 posicionActual = rb.position;
 
-        if(Vector2.Distance(transform.position, puntosMovimiento[sigientePlataforma].position)< 0.1f)
+        velocidadPlataforma =
+            (posicionActual - posicionAnterior) / Time.fixedDeltaTime;
+
+        posicionAnterior = posicionActual;
+
+        rb.MovePosition(
+            Vector2.MoveTowards(
+                rb.position,
+                puntos[indiceActual].position,
+                velocidad * Time.fixedDeltaTime
+            )
+        );
+
+        if (Vector2.Distance(rb.position, puntos[indiceActual].position) < 0.1f)
         {
-            if (ordenPlataformas)
+            indiceActual++;
+
+            if (indiceActual >= puntos.Length)
             {
-                sigientePlataforma += 1;
-            }
-            else
-            {
-                sigientePlataforma -= 1;
+                indiceActual = 0;
             }
         }
-        transform.position = Vector2.MoveTowards(transform.position, puntosMovimiento[sigientePlataforma].position, velocidadMovimiento + Time.deltaTime);
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            other.transform.SetParent(this.transform);
-        }
-    }
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            other.transform.SetParent(null);
-        }
-    }
-
 }

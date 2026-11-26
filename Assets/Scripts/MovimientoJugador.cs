@@ -29,6 +29,8 @@ public class MovimientoJugador : MonoBehaviour
     private float gravedadNormal;
     private int direccion = 1;
     private SpriteRenderer sprite;
+    private PlataformaMueve plataformaActual;
+
 
     void Awake()
     {
@@ -122,7 +124,14 @@ public class MovimientoJugador : MonoBehaviour
         }
         else if (!haciendoDash)
         {
-            rb.velocity = new Vector2(entradaX * velocidad, rb.velocity.y);
+            if (plataformaActual != null && entradaX == 0)
+            {
+                rb.velocity = new Vector2(plataformaActual.velocidadPlataforma.x, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(entradaX * velocidad, rb.velocity.y);
+            }
         }
     }
 
@@ -158,6 +167,7 @@ public class MovimientoJugador : MonoBehaviour
         if (choque.GetContact(0).normal.y > 0.5f)
         {
             enSuelo = true;
+            plataformaActual = choque.gameObject.GetComponent<PlataformaMueve>();
         }
     }
 
@@ -165,5 +175,9 @@ public class MovimientoJugador : MonoBehaviour
     void OnCollisionExit2D(Collision2D choque)
     {
         enSuelo = false;
+        if (choque.gameObject.GetComponent<PlataformaMueve>())
+        {
+            plataformaActual = null;
+        }
     }
 }
