@@ -111,14 +111,8 @@ public class VidaJugador : MonoBehaviour
 
     private void Derrota()
     {
-        if (escenaDerrota == "")
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        else
-        {
-            SceneManager.LoadScene(escenaDerrota);
-        }
+        FindObjectOfType<GestorDerrota>().MostrarDerrota();
+      
     }
 
     public int GetVida()
