@@ -12,7 +12,7 @@ public class GestorDerrota : MonoBehaviour
         panelDerrota.SetActive(true);
 
         textoPuntuacion.text =
-            "PUNTUACIÓN FINAL: " +
+            "PUNTUACIÓN: " +
             GestorJuego.instancia.GetPuntos();
 
         Time.timeScale = 0f;
