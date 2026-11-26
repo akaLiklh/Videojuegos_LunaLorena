@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1803832099644695210}
   - component: {fileID: 3477390279274593948}
   - component: {fileID: 3432176187082468578}
+  - component: {fileID: 2565760829701896920}
   m_Layer: 0
   m_Name: Melinoe
   m_TagString: Player
@@ -225,12 +226,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3047c97c93fdb34a9541ec49d97aec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 5
+  vidaMaxima: 5
   tiempoSinDanio: 1
   tiempoEmpuje: 0.2
   fuerzaEmpuje: 8
   tiempoMuerte: 1.5
   escenaDerrota: 
+  vida: 5
+--- !u!114 &2565760829701896920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3485172646185138055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c27ad0eecb3aff4abaec30479280097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tieneTarjeta: 0
 --- !u!1 &7213001018880152116
 GameObject:
   m_ObjectHideFlags: 0

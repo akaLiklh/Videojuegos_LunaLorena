@@ -1,6 +1,6 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
-// Ker: patrulla, se para en los extremos, detecta a Melínoe, la persigue y le hace daño al tocarla.
+// Ker: patrulla, se para en los extremos, detecta a Melï¿½noe, la persigue y le hace daï¿½o al tocarla.
 public class EnemigoKerKalen : MonoBehaviour
 {
     [SerializeField] private float velocidad = 2f;
@@ -42,7 +42,7 @@ public class EnemigoKerKalen : MonoBehaviour
 
     void Update()
     {
-        // ¿Está Melínoe cerca?
+        // ï¿½Estï¿½ Melï¿½noe cerca?
         bool cerca = false;
         if (jugador != null)
         {
@@ -132,7 +132,7 @@ public class EnemigoKerKalen : MonoBehaviour
         }
     }
 
-    // Dibuja la zona de patrulla (amarillo) y de detección (rojo)
+    // Dibuja la zona de patrulla (amarillo) y de detecciï¿½n (rojo)
     void OnDrawGizmosSelected()
     {
         float x = transform.position.x;

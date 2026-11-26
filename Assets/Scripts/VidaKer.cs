@@ -6,6 +6,7 @@ public class VidaKer : MonoBehaviour
     [SerializeField] private int vida = 3;
     [SerializeField] private float tiempoRojo = 0.15f;
     [SerializeField] private float tiempoMuerte = 0.6f;
+    [SerializeField] private GameObject orbeVida;
 
     private SpriteRenderer sprite;
     private Animator anim;
@@ -40,6 +41,7 @@ public class VidaKer : MonoBehaviour
 
             if (contadorMuerte <= 0)
             {
+                Instantiate(orbeVida, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }
@@ -48,11 +50,11 @@ public class VidaKer : MonoBehaviour
     public void RecibirDanio(int danio)
     {
         if (muerto)
-        {
+        { 
             return;
         }
 
-        vida -= danio;
+            vida -= danio;
         sprite.color = Color.red;
         contadorRojo = tiempoRojo;
 
