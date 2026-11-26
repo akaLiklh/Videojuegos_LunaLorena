@@ -6357,26 +6357,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melinoe
       objectReference: {fileID: 0}
-    - target: {fileID: 5576930873911927264, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5576930873911927264, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.3235533
-      objectReference: {fileID: 0}
-    - target: {fileID: 5576930873911927264, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.3235533
-      objectReference: {fileID: 0}
-    - target: {fileID: 5576930873911927264, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5576930873911927264, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.55
-      objectReference: {fileID: 0}
     - target: {fileID: 8983005709766457533, guid: 3f546896f2c765f41822389f0039ec98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.47

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3477390279274593948}
   - component: {fileID: 3432176187082468578}
   - component: {fileID: 2565760829701896920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Melinoe
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 3485172646185138055}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.056124, y: 2.6601624, z: 0}
+  m_LocalPosition: {x: 13.47, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 160ce80d09b3ef5448a40d52a08fb2d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 6
-  fuerzaSalto: 14
+  velocidad: 8
+  fuerzaSalto: 18
   margenSalto: 0.1
   velocidadDash: 16
   duracionDash: 0.18
@@ -229,7 +229,7 @@ MonoBehaviour:
   vidaMaxima: 5
   tiempoSinDanio: 1
   tiempoEmpuje: 0.2
-  fuerzaEmpuje: 8
+  fuerzaEmpuje: 5
   tiempoMuerte: 1.5
   escenaDerrota: 
   vida: 5
@@ -255,7 +255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4986545940100603044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pies
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -286,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5576930873911927264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PuntoAtaque
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -302,8 +302,8 @@ Transform:
   m_GameObject: {fileID: 9132486923617898985}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 1.24, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.51, y: 1.64, z: 0}
+  m_LocalScale: {x: 5, y: 4, z: 2.3235533}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8983005709766457533}

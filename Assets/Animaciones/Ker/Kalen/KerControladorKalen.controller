@@ -32,7 +32,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KerEscanerKalen
+  m_Name: KerEscaner
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -118,7 +118,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KerMuerteKalen
+  m_Name: KerMuerte
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -233,7 +233,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KerIdleKalen
+  m_Name: KerIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -284,7 +284,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KerVolarEscaneandoKalen
+  m_Name: KerVolarEscaneando
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

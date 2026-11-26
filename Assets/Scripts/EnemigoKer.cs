@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 // Ker: patrulla, se para en los extremos, detecta a Mel�noe, la persigue y le hace da�o al tocarla.
-public class EnemigoKerKalen : MonoBehaviour
+public class EnemigoKer : MonoBehaviour
 {
     [SerializeField] private float velocidad = 2f;
     [SerializeField] private float velocidadPersecucion = 3.5f;

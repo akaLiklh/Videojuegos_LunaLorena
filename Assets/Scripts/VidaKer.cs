@@ -64,7 +64,7 @@ public class VidaKer : MonoBehaviour
             contadorMuerte = tiempoMuerte;
 
             // Deja de moverse y de chocar
-            EnemigoKerKalen ker = GetComponent<EnemigoKerKalen>();
+            EnemigoKer ker = GetComponent<EnemigoKer>();
             if (ker != null)
             {
                 ker.enabled = false;
