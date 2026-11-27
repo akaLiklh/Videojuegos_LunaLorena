@@ -22,7 +22,7 @@
             <ui:Label text="Espacio — Saltar" class="texto" />
             <ui:Label text="Shift — Dash" class="texto" />
             <ui:Label text="Ctrl — Rodar" class="texto" />
-            <ui:Label text="Click izquierdo" class="texto" />
+            <ui:Label text="Click izquierdo - Atacar" class="texto" />
             <ui:Label text="E — Interactuar" class="texto" />
             <ui:Button name="bVolver" text="Volver" class="boton" />
         </ui:VisualElement>

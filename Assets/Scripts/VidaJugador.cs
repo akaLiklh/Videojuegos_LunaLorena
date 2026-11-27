@@ -29,7 +29,13 @@ public class VidaJugador : MonoBehaviour
         movimiento = GetComponent<MovimientoJugador>();
         ataque = GetComponent<AtaqueJugador>();
     }
+    void Start()
+    {
+        muerta = false;
 
+        movimiento.enabled = true;
+        ataque.enabled = true;
+    }
     void Update()
     {
         // Parpadeo en rojo mientras no puede recibir daño
@@ -105,7 +111,7 @@ public class VidaJugador : MonoBehaviour
     public void Curar(int cantidadAumenta)
     {
         vida += cantidadAumenta;
-        if(vida > vidaMaxima)
+        if (vida > vidaMaxima)
         {
             vida = vidaMaxima;
         }
@@ -114,7 +120,7 @@ public class VidaJugador : MonoBehaviour
     private void Derrota()
     {
         FindObjectOfType<GestorDerrota>().MostrarDerrota();
-      
+
     }
 
     public int GetVida()

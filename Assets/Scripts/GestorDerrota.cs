@@ -15,7 +15,7 @@ public class GestorDerrota : MonoBehaviour
             "PUNTUACIÓN: " +
             GestorJuego.instancia.GetPuntos();
 
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
     }
 
     public void Reintentar()
@@ -25,7 +25,7 @@ public class GestorDerrota : MonoBehaviour
         GestorJuego.instancia.ReiniciarPuntos();
 
         SceneManager.LoadScene(
-            SceneManager.GetActiveScene().name);
+            SceneManager.GetActiveScene().buildIndex);
     }
     public void Menu()
     {
