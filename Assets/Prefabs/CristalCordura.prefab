@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1942952987254630657}
   - component: {fileID: 8612565730204158462}
   m_Layer: 0
-  m_Name: Orbe
+  m_Name: CristalCordura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

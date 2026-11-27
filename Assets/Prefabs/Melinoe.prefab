@@ -227,11 +227,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaMaxima: 5
-  tiempoSinDanio: 1
+  tiempoSinDanio: 2
   tiempoEmpuje: 0.2
-  fuerzaEmpuje: 5
+  fuerzaEmpuje: 2
   tiempoMuerte: 1.5
-  escenaDerrota: 
   vida: 5
 --- !u!114 &2565760829701896920
 MonoBehaviour:

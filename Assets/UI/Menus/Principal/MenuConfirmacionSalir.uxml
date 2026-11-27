@@ -1,5 +1,5 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <Style src="EstilosMenuPrincipal.uss" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/EstilosMenus.uss?fileID=7433441132597879392&amp;guid=36b50ea1e0c4de0428a9f8239ff97609&amp;type=3#EstilosMenus" />
     <ui:VisualElement class="raiz centrado">
         <ui:Label text="¿Seguro que quieres salir?" class="titulo-pequeno" />
         <ui:VisualElement class="caja-botones centrado">

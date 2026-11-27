@@ -1,0 +1,15 @@
+.raiz.fondo-final {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10, 6, 18, 0.85);
+}
+
+.texto-puntuacion {
+    font-size: 70px;
+    color: rgb(220, 190, 255);
+    -unity-text-align: middle-center;
+    margin-bottom: 30px;
+}

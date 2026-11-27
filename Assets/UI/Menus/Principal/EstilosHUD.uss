@@ -1,0 +1,116 @@
+.hud-raiz {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    align-items: flex-start;
+    padding: 40px 50px;
+    -unity-font: url("project://database/Assets/Arte/Fuentes/VT323-Regular.ttf?fileID=12800000&guid=d618850fb82a3ad4a8daf1a16e5b5221&type=3#VT323-Regular");
+    -unity-font-definition: url("project://database/Assets/Arte/Fuentes/VT323-Regular.ttf?fileID=12800000&guid=d618850fb82a3ad4a8daf1a16e5b5221&type=3#VT323-Regular");
+    color: rgb(190, 150, 255);
+}
+
+.hud-panel {
+    padding: 8px 18px 12px 18px;
+    background-color: rgba(12, 8, 22, 0.85);
+    border-width: 2px;
+    border-color: rgba(205, 165, 255, 0.45);
+}
+
+.hud-esq {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: rgb(225, 200, 255);
+}
+
+.hud-esq-si {
+    left: -3px;
+    top: -3px;
+    border-left-width: 3px;
+    border-top-width: 3px;
+}
+
+.hud-esq-sd {
+    right: -3px;
+    top: -3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+}
+
+.hud-esq-ii {
+    left: -3px;
+    bottom: -3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.hud-esq-id {
+    right: -3px;
+    bottom: -3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.hud-etiqueta {
+    margin: 0 0 6px 0;
+    padding: 0 0 2px 0;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: rgba(205, 165, 255, 0.75);
+    border-bottom-width: 1px;
+    border-color: rgba(205, 165, 255, 0.35);
+}
+
+.corazones {
+    flex-direction: row;
+}
+
+.corazon {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hud-fila-puntos {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 6px;
+    border-top-width: 1px;
+    border-color: rgba(205, 165, 255, 0.35);
+}
+
+.hud-etiqueta-puntos {
+    margin: 0 16px 0 0;
+    padding: 0;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: rgba(205, 165, 255, 0.75);
+}
+
+.hud-valor {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: rgb(230, 205, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(10, 6, 18);
+    text-shadow: 0 0 4px rgba(190, 150, 255, 0.6);
+}
+
+.mensaje {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 120px;
+    font-size: 52px;
+    -unity-text-align: middle-center;
+    color: rgb(220, 190, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(10, 6, 18);
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="/Assets/EstilosMenus.uss" />
+    <Style src="/Assets/EstilosFinales.uss" />
+    <ui:VisualElement name="Raiz" class="raiz centrado fondo-final">
+        <ui:Label name="Titulo" text="DERROTA" class="titulo-pequeno" />
+        <ui:Label name="TextoPuntuacion" text="PUNTUACIÓN: 0" class="texto-puntuacion" />
+        <ui:VisualElement class="caja-botones centrado">
+            <ui:Button name="bReintentar" text="REINICIAR" class="boton" />
+            <ui:Button name="bSalir" text="SALIR" class="boton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,8 +1,21 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/Menus/Principal/EstilosMenuPrincipal.uss" />
-    <ui:VisualElement name="Hud" class="hud" picking-mode="Ignore">
-        <ui:Label name="TextoVida" text="VIDA 5" class="hud-texto" picking-mode="Ignore" />
-        <ui:Label name="TextoPuntos" text="PUNTOS 0" class="hud-texto" picking-mode="Ignore" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Raiz" class="hud-raiz" picking-mode="Ignore">
+
+        <ui:VisualElement name="PanelHud" class="hud-panel" picking-mode="Ignore">
+            <ui:VisualElement class="hud-esq hud-esq-si" picking-mode="Ignore" />
+            <ui:VisualElement class="hud-esq hud-esq-sd" picking-mode="Ignore" />
+            <ui:VisualElement class="hud-esq hud-esq-ii" picking-mode="Ignore" />
+            <ui:VisualElement class="hud-esq hud-esq-id" picking-mode="Ignore" />
+
+            <ui:Label text="VIDA" class="hud-etiqueta" picking-mode="Ignore" />
+            <ui:VisualElement name="Corazones" class="corazones" picking-mode="Ignore" />
+
+            <ui:VisualElement class="hud-fila-puntos" picking-mode="Ignore">
+                <ui:Label text="PUNTOS" class="hud-etiqueta-puntos" picking-mode="Ignore" />
+                <ui:Label name="TextoPuntos" text="000000" class="hud-valor" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:Label name="TextoMensaje" text="" class="mensaje" picking-mode="Ignore" />
     </ui:VisualElement>
-    <ui:Label name="TextoMensaje" text="" class="mensaje" picking-mode="Ignore" />
 </ui:UXML>

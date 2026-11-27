@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/Menus/Principal/EstilosMenuPrincipal.uss?fileID=7433441132597879392&amp;guid=88c7d7e8c91ff4042904a52c1fdb295c&amp;type=3#EstilosMenuPrincipal" />
+    <Style src="project://database/Assets/EstilosMenus.uss?fileID=7433441132597879392&amp;guid=36b50ea1e0c4de0428a9f8239ff97609&amp;type=3#EstilosMenus" />
     <ui:VisualElement class="raiz">
         <ui:VisualElement name="PantallaEleccion" class="caja-botones centrado">
             <ui:Label text="Opciones" class="titulo-pequeno" style="background-color: rgba(0, 0, 0, 0);" />
