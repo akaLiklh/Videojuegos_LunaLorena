@@ -109,7 +109,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 4
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3cbcd30d995cee74cbc8b7dca73e4f7f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -129,7 +129,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 3485172646185138055}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3cbcd30d995cee74cbc8b7dca73e4f7f, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntoAtaque: {fileID: 5576930873911927264}
-  radioAtaque: 0.6
+  radioAtaque: 2
   danio: 1
   tiempoEntreGolpes: 0.3
   ventanaCombo: 0.7
@@ -301,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 9132486923617898985}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.51, y: 1.64, z: 0}
+  m_LocalPosition: {x: 1.46, y: 1.64, z: 0}
   m_LocalScale: {x: 5, y: 4, z: 2.3235533}
   m_ConstrainProportionsScale: 0
   m_Children: []

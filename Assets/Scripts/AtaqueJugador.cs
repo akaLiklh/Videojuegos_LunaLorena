@@ -4,7 +4,7 @@ public class AtaqueJugador : MonoBehaviour
 {
     //se puede modificar las variables desde el inspector pero no desde otro Script
     [SerializeField] private Transform puntoAtaque;
-    [SerializeField] private float radioAtaque = 0.6f;
+    [SerializeField] private float radioAtaque = 2f;
     [SerializeField] private int danio = 1;
     [SerializeField] private float tiempoEntreGolpes = 0.3f;
     [SerializeField] private float ventanaCombo = 0.7f;
