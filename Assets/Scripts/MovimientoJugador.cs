@@ -74,7 +74,7 @@ public class MovimientoJugador : MonoBehaviour
             }
             return;
         }
-
+        // Guarda en la variable entradaX lo que está pulsando el jugador en el eje horizontal
         entradaX = Input.GetAxisRaw("Horizontal");
 
         if (entradaX > 0)
@@ -117,6 +117,7 @@ public class MovimientoJugador : MonoBehaviour
 
     void FixedUpdate()
     {
+        Debug.Log("entradaX = " + entradaX);
         // Mientras rueda, avanza hacia donde mira
         if (rodando)
         {
@@ -124,6 +125,7 @@ public class MovimientoJugador : MonoBehaviour
         }
         else if (!haciendoDash)
         {
+            //si la plataforma se mueve con el personaje encima este se queda quieto y se mueve a la vez
             if (plataformaActual != null && entradaX == 0)
             {
                 rb.velocity = new Vector2(plataformaActual.velocidadPlataforma.x, rb.velocity.y);

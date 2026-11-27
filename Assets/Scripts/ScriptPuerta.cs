@@ -4,23 +4,22 @@ using UnityEngine.Tilemaps;
 
 public class ScriptPuerta : MonoBehaviour
 {
+    // Vector que reccoge todos los botones que hay que pulsar para abrir la puerta
     public GameObject[] listaBotones;
+
     [SerializeField] private float tiempoEspera = 2f;
     [SerializeField] private GameObject puertaCerrada;
-    private bool puertaAbierta = false;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
+    private bool puertaAbierta = false;
 
     // Update is called once per frame
     void Update()
     {
+        // Cantidad de botones pulsados
         int contador = 0;
-        foreach (GameObject go in listaBotones)
+        foreach (GameObject boton in listaBotones)
         {
-            IPulsable scr = go.GetComponent<IPulsable>();
+            IPulsable scr = boton.GetComponent<IPulsable>();
             if (scr.EstaPulsado())
             {
                 contador++;

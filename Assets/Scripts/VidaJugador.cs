@@ -36,6 +36,9 @@ public class VidaJugador : MonoBehaviour
         if (contadorSinDanio > 0)
         {
             contadorSinDanio -= Time.deltaTime;
+            // (int)(contadorSinDanio * 10) -> convierte el numero a entero
+            // % 2 ==0 -> si es par devuelve true
+            // && contadorSinDanio > 0 -> para que parpadee y devuelva true el contador no puede ser 0
             bool rojo = (int)(contadorSinDanio * 10) % 2 == 0 && contadorSinDanio > 0;
 
             if (rojo)

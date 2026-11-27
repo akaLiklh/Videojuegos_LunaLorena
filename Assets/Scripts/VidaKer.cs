@@ -41,6 +41,7 @@ public class VidaKer : MonoBehaviour
 
             if (contadorMuerte <= 0)
             {
+                // Aparece el orbe de vida en la misma posicion que el enemigo
                 Instantiate(orbeVida, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }

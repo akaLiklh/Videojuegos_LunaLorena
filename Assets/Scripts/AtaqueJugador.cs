@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AtaqueJugador : MonoBehaviour
 {
+    //se puede modificar las variables desde el inspector pero no desde otro Script
     [SerializeField] private Transform puntoAtaque;
     [SerializeField] private float radioAtaque = 0.6f;
     [SerializeField] private int danio = 1;
@@ -24,6 +25,7 @@ public class AtaqueJugador : MonoBehaviour
 
     void Update()
     {
+        // Reduce el tiempo de espera entre ataques.
         if (contadorGolpe > 0)
         {
             contadorGolpe -= Time.deltaTime;

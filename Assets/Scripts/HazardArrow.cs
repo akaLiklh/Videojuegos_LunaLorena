@@ -31,25 +31,10 @@ public class HazardArrow : MonoBehaviour
             
         }
     }
-    /*private void OnTriggerEnter2D(Collider2D other)
-    {
-        VidaJugador jugador = other.GetComponent<VidaJugador>();
 
-        if (jugador != null)
-        {
-            jugador.RecibirDanio(danio, transform.position);
-        }
-    }*/
     public void HacerDanio()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(
-            transform.position,
-            tamannoAtaque,
-            0,
-            Vector2.left,
-            distanciaAtaque,
-            capaJugador
-        );
+        RaycastHit2D hit = Physics2D.BoxCast(transform.position, tamannoAtaque, 0, Vector2.left, distanciaAtaque, capaJugador);
 
         if (hit.collider != null)
         {

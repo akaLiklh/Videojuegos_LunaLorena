@@ -5,14 +5,8 @@ public class BotonPulsar : MonoBehaviour, IPulsable
     public Color colorPulsado;
     public Color colorEnReposo;
     private bool jugadorCerca = false;
+    private bool pulsado=false;
 
-    bool pulsado;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
